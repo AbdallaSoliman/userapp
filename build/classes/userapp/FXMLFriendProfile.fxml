@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="userapp.FXMLGroupChatInfoController">
+    <stylesheets>
+        <URL value="@fxmlgroupchatinfo.css" />
+    </stylesheets>
+   <children>
+      <Pane prefHeight="66.0" prefWidth="600.0" style="-fx-background-color: #11193C;" stylesheets="@../styles/fxmlgroupchatinfo.css">
+         <children>
+            <Text fill="#cdbfbf" layoutX="217.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Friend Profile" wrappingWidth="157.13671875">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <ImageView fx:id="FrImage" fitHeight="127.0" fitWidth="140.0" layoutX="55.0" layoutY="96.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/female-icon-23.png" />
+         </image>
+      </ImageView>
+      <Text fx:id="FrName" layoutX="67.0" layoutY="264.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mayada Saleh " wrappingWidth="115.00000190734863">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Text>
+      <Text fx:id="FrStatues" layoutX="71.0" layoutY="296.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Stop Complaining and just do it." textAlignment="CENTER" wrappingWidth="107.99999535083771">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="FrEmail" layoutX="253.0" layoutY="144.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email:                 eng.mayadasaleh@gmail.com" wrappingWidth="324.13671875">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="FrPhone" layoutX="253.0" layoutY="173.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Phone:               01069966666" wrappingWidth="324.13672506809235">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="FrCity" layoutX="245.0" layoutY="205.0" strokeType="OUTSIDE" strokeWidth="0.0" text="   City:                   Alexandria " wrappingWidth="324.13672506809235">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="FrBDate" layoutX="253.0" layoutY="234.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BDate:                    9-18-1994" wrappingWidth="324.13673400878906">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="FrGender" layoutX="253.0" layoutY="264.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gender:                 Female" wrappingWidth="198.13671875">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

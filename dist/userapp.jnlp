@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="userapp.jnlp">
+  <information>
+    <title>userapp</title>
+    <vendor>Ali Alzantot</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="lib/ojdbc7.jar" size="3397734" download="eager" />
+    <jar href="userapp.jar" size="1483919" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="userapp" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="userapp.Main"  name="userapp" />
+  <update check="always"/>
+</jnlp>
